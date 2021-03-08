@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 export default class navbar extends Component {
   render() {
     return (
@@ -16,9 +16,9 @@ export default class navbar extends Component {
           <li><a href="#">Things to do</a></li>
         </ul>
       </nav>
+
     );
   }
 }
-
 
 
