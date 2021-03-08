@@ -4,7 +4,7 @@ import Kiah from './Kiah.jpg';
 import Aarika from '.Aarika.jpg/'
 
 
-const about = () => {
+const About = () => {
     return (
         <div className= 'container'>
             <h3>About Us</h3>
@@ -26,4 +26,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About
