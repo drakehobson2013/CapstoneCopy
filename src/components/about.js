@@ -8,6 +8,7 @@ const about = () => {
             <h4> <em> Meet the Team!</em></h4>
 
             <div className= 'post-container'>
+            
 
             </div>
             
