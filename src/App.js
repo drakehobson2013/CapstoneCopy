@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,11 +12,17 @@ import Navbar from "./components/Navbar";
 // import Attractions  from "./components/Attractions";
 // import CincyHistory  from "./components/CincyHistory";
 // import Contact  from "./components/Contact";
+=======
+import Navbar from "./components/navbar"
+import React from "react"
+
+>>>>>>> 377812d7e7c3597b2cb82eee8553bf82c2845b38
 
 function App() {
   return (
     <Router>
     <div className="App">
+<<<<<<< HEAD
     <Navbar />
     <br/>
     {/* <Route path="/" component={Home} />
@@ -26,6 +33,9 @@ function App() {
     <Route path="/learn" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
       
+=======
+      <Navbar/>
+>>>>>>> 377812d7e7c3597b2cb82eee8553bf82c2845b38
     </div>
     </Router>
   );
