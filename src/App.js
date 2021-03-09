@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Import Components
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 // import Home  from "./components/Home";
 import About  from "./components/About";
 // import EatLocal  from "./components/EatLocal";
@@ -13,7 +14,7 @@ import About  from "./components/About";
 
 function App() {
   return (
-    <Router>
+    <Router/>
     <div className="App">
     <Navbar />
     <br/>
@@ -26,9 +27,10 @@ function App() {
     <Route path="/attraction" component={Attractions} />
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
-    </Switch> 
+      <footer />
     </div>
     </Router>
+    
   );
 }
 
