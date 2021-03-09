@@ -14,12 +14,11 @@ const restaurantSchema = new Schema({
         state: {type: String, required: true},
         zipcode: {type: Number, required: true},
 
-      }, {
-        timestamps: true,
+  
       });
 
 
-const User = mongoose.model('User', restaurantSchema);
+const Restaurant = mongoose.model('Restaurant', restaurantSchema);
 
 
-module.exports = User;
+module.exports = Restaurant;
