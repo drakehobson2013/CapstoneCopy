@@ -21,8 +21,8 @@ function App() {
     <Route path="/about" component={About} />
     <Route path="/eat" component={EatLocal} />
     <Route path="/shop" component={ShopLocal} />
-    <Route path="/visit" component={Attractions} />
-    <Route path="/learn" component={CincyHistory} />
+    <Route path="/attractions" component={Attractions} />
+    <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
       
     </div>
