@@ -25,9 +25,10 @@ function App() {
     <Route path="/attractions" component={Attractions} />
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
-      
+      <footer />
     </div>
     </Router>
+    
   );
 }
 
