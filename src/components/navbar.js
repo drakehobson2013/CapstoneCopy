@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 // import { Link } from 'react-router-dom';
 export default class navbar extends Component {
-=======
-import { Link } from 'react-router-dom';
-export default class Navbar extends Component {
->>>>>>> a90c1ea614965f187659d284edaada947e5d8977
   render() {
     return (
         
