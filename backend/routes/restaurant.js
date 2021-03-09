@@ -1,10 +1,10 @@
 const router = require('express').Router();
-let Shop = require('../models/shop.model');
+let Restaurant = require('../models/restaurant.model');
 
 
 router.route('/').get((req, res) => {
-  Shop.find()
-    .then(shops => res.json(shops))
+  Restaurant.find()
+    .then(restaurants => res.json(restaurants))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
@@ -18,7 +18,7 @@ router.route('/add').post((req, res) => {
   const state = req.body.state;
   const zipcode = req.body.zipcode;
 
-  const newShop = new Shop({
+  const newRestaurant = new Restaurant({
     name,
     description,
     image,
@@ -29,8 +29,8 @@ router.route('/add').post((req, res) => {
   });
 
 
-  newShop.save()
-    .then(() => res.json('Shop added!'))
+  newRestaurant.save()
+    .then(() => res.json('Restaurant added!'))
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
