@@ -13,8 +13,10 @@ import About  from "./components/About";
 // import Contact  from "./components/Contact";
 
 function App() {
+
   return (
-    <Router/>
+
+    <Router>
     <div className="App">
     <Navbar />
     <br/>
@@ -27,9 +29,10 @@ function App() {
     <Route path="/attraction" component={Attractions} />
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
-      <footer />
-      <Switch/>
+    </Switch> 
+     <Footer /> 
     </div>
+  
     </Router>
     
   );
