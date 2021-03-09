@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /* my nav */
-nav{
+Nav{
   display: flex !important;
   justify-content: space-around;
   align-items: center;
