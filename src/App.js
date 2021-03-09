@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Import Components
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // import Home  from "./components/Home";
 import About  from "./components/About";
 // import EatLocal  from "./components/EatLocal";
