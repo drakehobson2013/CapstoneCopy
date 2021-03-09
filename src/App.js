@@ -13,11 +13,12 @@ import Footer from "./components/footer";
 // import Contact  from "./components/Contact";
 
 function App() {
+
   return (
-    <Router/>
+
+    <Router>
     <div className="App">
     <Navbar />
-    <br/>
     <Switch>
     {/* <Route path="/" component={Home} />
     <Route path="/about" component={About} />
@@ -26,8 +27,10 @@ function App() {
     <Route path="/attraction" component={Attractions} />
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
-      <footer />
+    </Switch> 
+     <Footer /> 
     </div>
+  
     </Router>
     
   );
