@@ -28,6 +28,7 @@ function App() {
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
       <footer />
+      <Switch/>
     </div>
     </Router>
     

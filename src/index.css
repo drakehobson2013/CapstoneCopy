@@ -30,8 +30,8 @@ code {
 }
 
 #kiah img {
-  width: 150;
-  height: 150;
+  /* width: 150;
+  height: 150; */
  border-radius: 150 / 2;
   overflow: "hidden";
   border-Width: 3;
