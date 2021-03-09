@@ -19,7 +19,7 @@ const About = () => {
             <img src={Aarika} alt="Aarika" id="aarika" />
             <p> <blockquote > Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestiae soluta magnam nesciunt harum illum quisquam aut suscipit ab maiores.</blockquote></p>
             <img src={Ron} alt="Ron" id="ron" />
-            <p> <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cumque quia accusantium vitae aliquam perspiciatis itaque vel quae dolore autem.</blockquote> </p>
+            <p> <blockquote>I just think how amazing it is to me how I knew nothing about code to that now I can actually design wonderful things and let my creativity free through web design.</blockquote> </p>
 
             </div>
             
