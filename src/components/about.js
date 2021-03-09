@@ -2,11 +2,12 @@ import React from 'react';
 import Drake from './Drake.jpg';
 import Kiah from './Kiah.jpg';
 import Aarika from './Aarika.jpg';
-import Ron from './Ron'
+import Ron from './Ron.jpeg'
 
 
 const About = () => {
-    return (
+    
+        return (
         <div className= 'container'>
             <h3>About Us</h3>
             <h4> <em> Meet the Team!</em></h4>
