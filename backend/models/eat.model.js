@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-const eatSchema = new Schema({
+const restaurantSchema = new Schema({
 
         name: { type: String, required: true },
         description: { type: String, required: true },
@@ -19,7 +19,7 @@ const eatSchema = new Schema({
       });
 
 
-const User = mongoose.model('User', eatSchema);
+const User = mongoose.model('User', restaurantSchema);
 
 
 module.exports = User;
