@@ -9,7 +9,7 @@ router.route('/').get((req, res) => {
 });
 
 
-router.route('/shops/add').post((req, res) => {
+router.route('/add').post((req, res) => {
   const name = req.body.name;
   const description = req.body.description;
   const image = req.body.image;
