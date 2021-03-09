@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Import Components
 import Navbar from "./components/navbar";
@@ -14,15 +14,16 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <Router>
+    <Router/>
     <div className="App">
     <Navbar />
     <br/>
+    <Switch>
     {/* <Route path="/" component={Home} />
     <Route path="/about" component={About} />
-    <Route path="/eat" component={EatLocal} />
+    <Route path="/restaurant" component={EatLocal} />
     <Route path="/shop" component={ShopLocal} />
-    <Route path="/attractions" component={Attractions} />
+    <Route path="/attraction" component={Attractions} />
     <Route path="/history" component={CincyHistory} />
     <Route path="/contact" component={Contact} /> */}
       <footer />

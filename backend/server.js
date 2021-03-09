@@ -24,14 +24,14 @@ connection.once('open', () => {
   console.log("MongoDB database connection established successfully");
 })
 
-const eatRouter = require('./routes/eat');  
+const restaurantRouter = require('./routes/restaurant');  
 const shopRouter = require('./routes/shop');  
-const attractionsRouter = require('./routes/attractions');  
+const attractionRouter = require('./routes/attraction');  
 const historyRouter = require('./routes/history');  
 
-app.use('/eat', eatRouter);
+app.use('/restaurant', restaurantRouter);
 app.use('/shop', shopRouter);
-app.use('/attractions', attractionsRouter);
+app.use('/attraction', attractionRouter);
 app.use('/history', historyRouter);
 
 app.listen(port, () => {
