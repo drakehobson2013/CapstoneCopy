@@ -31,11 +31,22 @@ code {
 
 .card {
   width: 70%;
-  width: 80%;
+  width: 85%;
   height: 25%;
-  color: rgb(95, 143, 145);
+  color: rgb(236, 9, 9);
+  position: static;
+  /* border: black;
+  border-width: medium; */
+
+
 
 }
+
+/* #deck{
+  border: black;
+  border-width: thick;
+} */
+
 img{
   width: 150px;
   height: 150px;
@@ -53,4 +64,8 @@ img{
 blockquote {
   font-family: font-family 'Montserrat', sans-serif;
 }
+/* .post-container {
+  background: rgb(60, 62, 65);
+} */
+
 
