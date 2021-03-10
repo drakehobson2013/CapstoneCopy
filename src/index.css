@@ -28,3 +28,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  width: 70%;
+  width: 80%;
+  height: 25%;
+  color: rgb(95, 143, 145);
+
+}
+img{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+  border-Color: red
+  
+}
+#drake {
+  align-self: flex-end;
+}
+#aarika{
+  align-self: flex-end;
+}
+blockquote {
+  font-family: font-family 'Montserrat', sans-serif;
+}
+
