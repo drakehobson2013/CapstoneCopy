@@ -34,5 +34,30 @@ router.route('/add').post((req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:id').get((req, res) => {  
+  Shop.findById(req.params.id)  
+    .then(shop => res.json(shop))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/:id').delete((req, res) => {  
+  Shop.findByIdAndDelete(req.params.id)  
+    .then(() => res.json('Shop deleted.'))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/update/:id').post((req, res) => {  
+  Shop.findById(req.params.id)  
+    .then(attraction => {  
+      Shop.name = req.body.name;  
+      Shop.description = req.body.description;  
+      Shop.image = req.body.image;  
+      Shop.address = req.body.address; 
+      Shop.city = req.body.city;  
+      Shop.state = req.body.state;
+      Shop.zipcode = Number (req.body.zipcode); shop.save()  
+        .then(() => res.json('Shop updated!'))  
+        .catch(err => res.status(400).json('Error: ' + err));  
+    })  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});
 
 module.exports = router;

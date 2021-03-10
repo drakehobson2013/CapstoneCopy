@@ -34,5 +34,31 @@ router.route('/add').post((req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:id').get((req, res) => {  
+  Attraction.findById(req.params.id)  
+    .then(attraction => res.json(attraction))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/:id').delete((req, res) => {  
+  Attraction.findByIdAndDelete(req.params.id)  
+    .then(() => res.json('Attraction deleted.'))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/update/:id').post((req, res) => {  
+  Attraction.findById(req.params.id)  
+    .then(attraction => {  
+      Attraction.name = req.body.name;  
+      Attraction.description = req.body.description;  
+      Attraction.image = req.body.image;  
+      Attraction.address = req.body.address; 
+      Attraction.city = req.body.city;  
+      Attraction.state = req.body.state;
+      Attraction.zipcode = Number (req.body.zipcode); attraction.save()  
+        .then(() => res.json('Attraction updated!'))  
+        .catch(err => res.status(400).json('Error: ' + err));  
+    })  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});
+
 
 module.exports = router;

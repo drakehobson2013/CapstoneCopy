@@ -34,5 +34,30 @@ router.route('/add').post((req, res) => {
     .catch(err => res.status(400).json('Error: ' + err));
 });
 
+router.route('/:id').get((req, res) => {  
+  Restaurant.findById(req.params.id)  
+    .then(restaurant => res.json(restaurant))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/:id').delete((req, res) => {  
+  Restaurant.findByIdAndDelete(req.params.id)  
+    .then(() => res.json('Restaurant deleted.'))  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});  
+router.route('/update/:id').post((req, res) => {  
+  Restaurant.findById(req.params.id)  
+    .then(attraction => {  
+      Restaurant.name = req.body.name;  
+      Restaurant.description = req.body.description;  
+      Restaurant.image = req.body.image;  
+      Restaurant.address = req.body.address; 
+      Restaurant.city = req.body.city;  
+      Restaurant.state = req.body.state;
+      Restaurant.zipcode = Number (req.body.zipcode); restaurant.save()  
+        .then(() => res.json('Restaurant updated!'))  
+        .catch(err => res.status(400).json('Error: ' + err));  
+    })  
+    .catch(err => res.status(400).json('Error: ' + err));  
+});
 
 module.exports = router;
