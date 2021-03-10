@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 /* my nav */
-Nav{
-  display: flex !important;
+Navbar{
+  /* display: flex !important;
   justify-content: space-around;
   align-items: center;
   min-height:8vh;
-  background-color: blue;
+  background-color: blue; */
   font-family: 'Fascinate', cursive;
-  color: red;
+  /* color: red; */
 }
 /* my nav */
 
@@ -28,40 +28,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
-img{
-  width: 150px;
-  height: 150px;
- border-radius: 50%;
-  border-Width: 3;
-  border-Color: red
-  
-}
-
-.card {
-  width: 80%;
-  height: 25%;
-  color: rgb(95, 143, 145);
-  
-}
-
-#drake {
-  align-self: flex-end;
-}
-
-#aarika{
-  align-self: flex-end;
-}
-
-
-blockquote {
-
-  font-family: font-family 'Montserrat', sans-serif;
-}
-
-
-
-
-
-

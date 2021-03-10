@@ -4,43 +4,26 @@ export default class Navbar extends Component {
   render() {
     return (
         
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Todos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Eat Local</a></li>
-                  <li><a class="dropdown-item" href="#">Shop Local</a></li>
-                  <li><a class="dropdown-item" href="#">Attractions</a></li>
-                  <li><hr class="dropdown-divider"/></li>
-                  <li><a class="dropdown-item" href="#">Cincy History</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link abled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+      <div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+ 
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Todos <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Eat local</a>
+        <a href="#" class="w3-bar-item w3-button">Shop local</a>
+        <a href="#" class="w3-bar-item w3-button">Attractions</a>
+        <a href="#" class="w3-bar-item w3-button">Cincy History</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
 
     );
   }
