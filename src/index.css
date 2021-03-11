@@ -29,6 +29,9 @@ code {
     monospace;
 }
 
+
+
+/* Below is the CSS for the about pages. Img and card details. */
 .card {
   width: 70%;
   width: 85%;
@@ -64,8 +67,15 @@ img{
 blockquote {
   font-family: font-family 'Montserrat', sans-serif;
 }
+
+
 /* .post-container {
   background: rgb(60, 62, 65);
 } */
+
+
+
+
+/* About Page Style End */
 
 

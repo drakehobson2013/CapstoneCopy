@@ -8,6 +8,8 @@ import "../index.css";
 
 
 const About = () => {
+
+ 
     
         return (
         <div className= 'container'>
@@ -43,8 +45,11 @@ const About = () => {
 
             </div>
             </div>
+
         </div>
+
+       
     )
 }
 
-export default About
+export default  (About)
