@@ -5,11 +5,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home  from "./components/Home";
-import About  from "./components/About";
+import ShopLocal  from "./components/ShopLocal";
+import Attractions  from "./components/Attractions";
 import EatLocal  from "./components/EatLocal";
-// import ShopLocal  from "./components/ShopLocal";
-// import Attractions  from "./components/Attractions";
-// import CincyHistory  from "./components/CincyHistory";
+import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
 
 function App() {
@@ -21,14 +20,14 @@ function App() {
     <Navbar />
     <br/>
     <Switch>  
-    <Route path="/about" component={About} />
-    <Route path="/contact" component={Contact} />
-    <Route exact path="/" component={Home} />
+     <Route path="/about" component={About} />
+     <Route path="/contact" component={Contact} />
+     <Route path="/attraction" component={Attractions} />  
+     <Route path="/shop" component={ShopLocal} />
+     <Route path="/restaurant" component={EatLocal} />
+     <Route exact path="/" component={Home} />
+     <Route path="/history" component={CincyHistory} />
  
-    <Route path="/restaurant" component={EatLocal} />
-    {/* <Route path="/shop" component={ShopLocal} /> */}
-    {/* <Route path="/attraction" component={Attractions} /> */}
-    {/* <Route path="/history" component={CincyHistory} /> */}
     </Switch> 
      <Footer /> 
     </div>
