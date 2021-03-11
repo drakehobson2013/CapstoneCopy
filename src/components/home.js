@@ -1,16 +1,22 @@
 import React from 'react'
-
-const home = () => {
+import cincyview from 'cincyview.mp4'
+const Home = () => {
     return (
-        <div>
+        <div id="home">
             <video id="slider" autoPlay muted loop>
-              <source src="video1.mp4" type="video/mp4"></source>
+            <li><source src={cincyview}></source></li>
+
             </video>
+            <ul class="navigation">
+              <li><img src="thumb"></img></li>
+              <li><img src="thumb"></img></li>
+              <li><img src="thumb"></img></li>
+            </ul>
         </div>
     )
 }
 
-export default home
+export default Home
 
 /* <Carousel fade>
   <Carousel.Item>

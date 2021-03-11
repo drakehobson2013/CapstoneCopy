@@ -9,7 +9,7 @@ export default class Navbar extends Component {
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 
   {/* change href to routes */}
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
     <a href="/about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
     <a href="/contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small" >Contact</a>
  

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import Home  from "./components/Home";
+import Home  from "./components/Home";
 import About  from "./components/About";
 // import EatLocal  from "./components/EatLocal";
 // import ShopLocal  from "./components/ShopLocal";
@@ -23,7 +23,8 @@ function App() {
     <Switch>  
      <Route path="/about" component={About} />
        <Route path="/contact" component={Contact} />
-    {/* <Route path="/" component={Home} />
+       <Route path="/" component={Home} />
+    {/* 
  
     <Route path="/restaurant" component={EatLocal} />
     <Route path="/shop" component={ShopLocal} />
