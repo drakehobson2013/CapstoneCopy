@@ -3,7 +3,9 @@ import React from 'react'
 const home = () => {
     return (
         <div>
-            
+            <video id="slider" autoPlay muted loop>
+              <source src="video1.mp4" type="video/mp4"></source>
+            </video>
         </div>
     )
 }
