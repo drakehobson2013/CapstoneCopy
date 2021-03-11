@@ -10,6 +10,7 @@ import Attractions  from "./components/Attractions";
 import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
+import About from "./components/About"
 
 function App() {
 
