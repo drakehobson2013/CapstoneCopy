@@ -36,7 +36,9 @@ router.route('/add').post((req, res) => {
 
 router.route('/:id').get((req, res) => {  
   Shop.findById(req.params.id)  
-    .then(shop => res.json(shop))  
+    .then(shop => res.json(shop
+      
+      ))  
     .catch(err => res.status(400).json('Error: ' + err));  
 });  
 router.route('/:id').delete((req, res) => {  

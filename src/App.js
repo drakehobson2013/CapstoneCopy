@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import Components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import Home  from "./components/Home";
+import Home  from "./components/Home";
 import About  from "./components/About";
-// import EatLocal  from "./components/EatLocal";
+import EatLocal  from "./components/EatLocal";
 // import ShopLocal  from "./components/ShopLocal";
 // import Attractions  from "./components/Attractions";
 // import CincyHistory  from "./components/CincyHistory";
@@ -21,15 +21,14 @@ function App() {
     <Navbar />
     <br/>
     <Switch>  
-     <Route path="/about" component={About} />
-       <Route path="/contact" component={Contact} />
-    {/* <Route path="/" component={Home} />
+    <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact} />
+    <Route exact path="/" component={Home} />
  
     <Route path="/restaurant" component={EatLocal} />
-    <Route path="/shop" component={ShopLocal} />
-    <Route path="/attraction" component={Attractions} />
-    <Route path="/history" component={CincyHistory} />
-  */ }
+    {/* <Route path="/shop" component={ShopLocal} /> */}
+    {/* <Route path="/attraction" component={Attractions} /> */}
+    {/* <Route path="/history" component={CincyHistory} /> */}
     </Switch> 
      <Footer /> 
     </div>
