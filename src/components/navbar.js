@@ -30,9 +30,9 @@ export default class Navbar extends Component {
         <div className="dropdown-menu">
         
         <a href="/restaurant" className="dropdown-item">Eat local</a>
-        <a href="#" className="dropdown-item">Shop local</a>
-        <a href="#" className="dropdown-item">Attractions</a>
-        <a href="#" className="dropdown-item">Cincy History</a>
+        <a href="/shop" className="dropdown-item">Shop local</a>
+        <a href="/attraction" className="dropdown-item">Attractions</a>
+        <a href="/history" className="dropdown-item">Cincy History</a>
         </div>
       </li>
     </ul>
