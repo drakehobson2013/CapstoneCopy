@@ -25,7 +25,7 @@ function App() {
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
-     <Route path="/" component={Home} />
+     <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
  
     </Switch> 
