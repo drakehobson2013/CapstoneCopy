@@ -29,6 +29,7 @@ function App() {
      <Route path="/restaurant" component={EatLocal} />
      <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
+     <Route exact path="/create" component={CreateRestaurant} />
  
     </Switch> 
      <Footer /> 
