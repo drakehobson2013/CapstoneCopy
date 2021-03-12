@@ -26,11 +26,6 @@ function App() {
        <Route path="/" component={Home} />
     {/* 
  
-    <Route path="/restaurant" component={EatLocal} />
-    <Route path="/shop" component={ShopLocal} />
-    <Route path="/attraction" component={Attractions} />
-    <Route path="/history" component={CincyHistory} />
-  */ }
     </Switch> 
      <Footer /> 
     </div>
