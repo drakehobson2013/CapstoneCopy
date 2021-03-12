@@ -12,6 +12,7 @@ import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
 import About from "./components/About"
+import CreateRestaurant from "./components/CreateRestaurant";
 
 function App() {
 
