@@ -102,3 +102,12 @@ blockquote {
 footer{
   position: fixed-bottom;
 }
+
+
+
+
+/* attractions - kings island card size */
+.hcard{
+  width:540px;
+ 
+}

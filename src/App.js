@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Components
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ import About  from "./components/About";
 // import Attractions  from "./components/Attractions";
 // import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
+import About from "./components/About";
 
 function App() {
 
@@ -24,7 +26,6 @@ function App() {
      <Route path="/about" component={About} />
        <Route path="/contact" component={Contact} />
        <Route path="/" component={Home} />
-    {/* 
  
     </Switch> 
      <Footer /> 

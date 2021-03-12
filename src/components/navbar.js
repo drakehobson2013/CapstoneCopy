@@ -29,6 +29,7 @@ export default class Navbar extends Component {
           </a>
         <div className="dropdown-menu">
         
+<<<<<<< HEAD
       <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -48,6 +49,19 @@ export default class Navbar extends Component {
       </div>
     </div>
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+=======
+        <a href="/restaurant" className="dropdown-item">Eat local</a>
+        <a href="/shop" className="dropdown-item">Shop local</a>
+        <a href="/attraction" className="dropdown-item">Attractions</a>
+        <a href="/history" className="dropdown-item">Cincy History</a>
+        </div>
+      </li>
+    </ul>
+    <form action="" className="form-inline my-2 my-lg-0">
+      <input type="search" className="form-control mr-sm-2" placeholder="Search" aria-label="Search"/>
+      <button className="btn btn-outline-dark my-2 my-sm-0">Search</button>
+    </form>
+>>>>>>> a267442e9296df16299ce4e95b621dc8a7f44b75
   </div>
 </nav>
     );
