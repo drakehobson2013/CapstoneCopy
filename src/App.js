@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // Import Components
 import Navbar from "./components/Navbar";
@@ -10,7 +11,11 @@ import Attractions  from "./components/Attractions";
 import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
+<<<<<<< HEAD
 import About from "./components/About"
+=======
+import About from "./components/About";
+>>>>>>> a267442e9296df16299ce4e95b621dc8a7f44b75
 
 function App() {
 

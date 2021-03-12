@@ -5,8 +5,7 @@ export default class EatLocal extends Component {
     return (
         
       <div>
-      
-          <h1>Hello</h1>
+        <h1>Local Restaurants</h1>
       </div>
 
 
