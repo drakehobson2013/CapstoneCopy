@@ -1,10 +1,10 @@
 import React from 'react'
-import cincyview from 'cincyview.mp4'
+import Cincy from './Cincy.mp4'
 const Home = () => {
     return (
         <div id="home">
             <video id="slider" autoPlay muted loop>
-            <li><source src={cincyview}></source></li>
+            <source src={""}></source>
 
             </video>
             <ul class="navigation">
@@ -18,7 +18,7 @@ const Home = () => {
 
 export default Home
 
-/* <Carousel fade>
+{/* <Carousel fade>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -54,4 +54,4 @@ export default Home
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel> */
+</Carousel>  */}

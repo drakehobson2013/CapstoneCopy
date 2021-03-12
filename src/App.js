@@ -12,7 +12,6 @@ import About  from "./components/About";
 // import Attractions  from "./components/Attractions";
 // import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
-import About from "./components/About";
 
 function App() {
 
