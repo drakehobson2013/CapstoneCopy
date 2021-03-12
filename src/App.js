@@ -11,11 +11,7 @@ import Attractions  from "./components/Attractions";
 import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
-<<<<<<< HEAD
 import About from "./components/About"
-=======
-import About from "./components/About";
->>>>>>> a267442e9296df16299ce4e95b621dc8a7f44b75
 
 function App() {
 

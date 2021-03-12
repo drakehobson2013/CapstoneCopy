@@ -79,13 +79,12 @@ blockquote {
 }
 
 
-/* .post-container {
-  background: rgb(60, 62, 65);
-} */
+div.post-container {
+  align-self: center;
+}
 
 
 
 
 /* About Page Style End */
-
 
