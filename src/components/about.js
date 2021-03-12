@@ -3,7 +3,6 @@ import Drake from './Drake.jpg';
 import Kiah from './Kiah.jpg';
 import Aarika from './Aarika.jpg';
 import Ron from './Ron.jpeg';
-// import Styles from "./index.css"
 import "../index.css";
 
 
@@ -13,7 +12,7 @@ const About = () => {
     
         return (
         <div className= 'container'>
-            <h3>About the Team</h3>
+            {/* <h3>About the Team</h3> */}
             <h4> <em> Meet the Team!</em></h4>
 
             <div className= 'post-container'>
