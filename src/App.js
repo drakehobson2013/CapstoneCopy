@@ -11,11 +11,8 @@ import Attractions  from "./components/Attractions";
 import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
-<<<<<<< HEAD
-import About from "./components/About"
-=======
 import About from "./components/About";
->>>>>>> a267442e9296df16299ce4e95b621dc8a7f44b75
+import CreateRestaurant from "./components/CreateRestaurant";
 
 function App() {
 
@@ -33,6 +30,7 @@ function App() {
      <Route path="/restaurant" component={EatLocal} />
      <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
+     <Route exact path="/create" component={CreateRestaurant} />
  
     </Switch> 
      <Footer /> 
