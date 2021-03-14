@@ -46,14 +46,17 @@ code {
   width: 70%;
   width: 85%;
   height: 25%;
-  color: rgb(236, 9, 9);
+  color: rgb(82, 58, 58);
   position: static;
-  font-size: 20px;
+  font-size: 17px;
   /* border: black;
   border-width: medium; */
 
+}
 
-
+div.about {
+  border: thick;
+  border-color: tomato;
 }
 
 /* #deck{

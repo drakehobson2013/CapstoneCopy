@@ -22,7 +22,7 @@ AOS.init();
 
 <br/>
 
-<div>
+<div className='about'>
 <div className="container">
     <p className="about-description">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorum. Molestias quia voluptatibus quam error, voluptates rerum aut. Accusamus ut est fugiat, id aliquid error magnam saepe tenetur doloribus odio veniam a repellat eligendi esse reprehenderit aperiam placeat ipsa cum. Nobis quidem aut vitae magni sint, beatae pariatur aliquid earum! 
@@ -33,10 +33,11 @@ AOS.init();
 <br/>
 <br/>
 
+
             <div className= 'post-container'>
             <div className= 'card-deck-4' id='deck'>
 
-            <div className="card bg-dark aos-init" data-aos='fade-right'>
+            <div className="card aos-init" data-aos='fade-right'>
             <img src={Drake} alt="Drake" id="drake" />
             <p> <blockquote  className="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae eius sunt eveniet. Repudiandae, earum veritatis doloremque unde ad dolor!
             - Drake</blockquote></p>
@@ -50,9 +51,10 @@ AOS.init();
             </div>
             <br/>
 
-            <div  className="card bg-dark aos-init" data-aos='fade-right'>
+            <div  className="card aos-init" data-aos='fade-right'>
             <img src={Aarika} alt="Aarika" id="aarika"/>
-            <p> <blockquote  className="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestiae soluta magnam nesciunt harum illum quisquam aut suscipit ab maiores. 
+            <p> <blockquote  className="text-center"> 
+            Creating this site with my team was a pleasure, and an overall great learning experience. To be able to collaborate and bring together the best of each individuals strong points; creating these amazing pages you see now. Thank you to Kable Academy for giving me the opportunity to learn and promote the foundating skills necessary to build upon, for my present and future career in Web Development.  
             - Aarika</blockquote></p>
             </div>
             <br/>
