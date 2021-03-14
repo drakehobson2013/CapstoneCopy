@@ -12,7 +12,12 @@ import EatLocal  from "./components/EatLocal";
 import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
 import About from "./components/About"
+<<<<<<< HEAD
 import CreateRestaurant from "./components/CreateRestaurant";
+=======
+import CreateRestaurant from "./components/CreateRestaurant"
+import CreateHistory from "./components/CreateHistory"
+>>>>>>> 82540d85c62b903beea77f9b84252f1af6a5a51d
 
 function App() {
 
@@ -30,7 +35,8 @@ function App() {
      <Route path="/restaurant" component={EatLocal} />
      <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
-     <Route exact path="/create" component={CreateRestaurant} />
+     <Route path="/createRestaurant" component={CreateRestaurant} />
+     <Route path="/createHistory" component={CreateHistory} />
  
     </Switch> 
      <Footer /> 
