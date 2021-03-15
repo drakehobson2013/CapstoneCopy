@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
-export default class CreateRestaurant extends Component {
+export default class CreateShop extends Component {
   constructor(props) {
     super(props);
 
@@ -81,7 +81,7 @@ export default class CreateRestaurant extends Component {
   onSubmit(e) {
     e.preventDefault();
   
-    const newRestaurant = {
+    const newShop = {
         name: this.state.name,
         description: this.state.description,
         image: this.state.image,
@@ -91,19 +91,19 @@ export default class CreateRestaurant extends Component {
         zipcode: this.state.zipcode
     };
   
-    console.log(newRestaurant);
+    console.log(newShop);
 
-    axios.post('http://localhost:5000/restaurant/add', newRestaurant)                
+    axios.post('http://localhost:5000/shop/add', newShop)                
     .then(res => console.log(res.data));
     
-    window.location = '/restaurant';
+    window.location = '/shop';
   }
 
 
   render() {
     return (
       <div>
-        <h3>Add New Restaurant</h3>
+        <h3>Add New Shopping Location</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
             <label>Name: </label>
@@ -172,7 +172,7 @@ export default class CreateRestaurant extends Component {
 
 
           <div className="form-group">
-            <input type="submit" value="Add Restaurant" className="btn btn-primary" />
+            <input type="submit" value="Add Shop" className="btn btn-primary" />
           </div>
         </form>
       </div>

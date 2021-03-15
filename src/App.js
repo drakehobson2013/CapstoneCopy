@@ -12,10 +12,10 @@ import About  from "./components/About";
 // import Attractions  from "./components/Attractions";
 // import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
-<<<<<<< HEAD
-=======
-import About from "./components/About"
->>>>>>> e335254efc03bcbdb0b22cd1c9012fa3277b9b06
+import CreateRestaurant from "./components/CreateRestaurant";
+import CreateHistory from "./components/CreateHistory";
+import CreateShop from "./components/CreateShop";
+import CreateAttraction from "./components/CreateAttraction";
 
 function App() {
 
@@ -27,18 +27,16 @@ function App() {
     <br/>
     <Switch>  
      <Route path="/about" component={About} />
-<<<<<<< HEAD
        <Route path="/contact" component={Contact} />
-       <Route path="/" component={Home} />
-=======
-     <Route path="/contact" component={Contact} />
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
-     <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
      <Route exact path="/create" component={CreateRestaurant} />
->>>>>>> e335254efc03bcbdb0b22cd1c9012fa3277b9b06
+     <Route path="/createRestaurant" component={CreateRestaurant} />
+     <Route path="/createHistory" component={CreateHistory} />
+     <Route path="/createAttraction" component={CreateAttraction} />
+     <Route path="/createShop" component={CreateShop} />
  
     </Switch> 
      <Footer /> 
