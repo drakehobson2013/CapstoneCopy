@@ -25,6 +25,27 @@ a.nav-link:hover{
 }
 /* my nav */
 
+#home{
+margin: 0;
+padding: 0;
+box-sizing: border-box ;
+}
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

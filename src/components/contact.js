@@ -2,6 +2,8 @@ import React from 'react'
 
 const contact = () => {
     return (
+      
+
         <div>
              <div class="w3-container w3-content w3-padding-64" style={{maxWidth:"800px"}} id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
@@ -29,6 +31,8 @@ const contact = () => {
     </div>
   </div>
         </div>
+
+        
     )
 }
 

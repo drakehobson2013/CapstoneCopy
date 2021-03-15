@@ -6,14 +6,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home  from "./components/Home";
-import ShopLocal  from "./components/ShopLocal";
-import Attractions  from "./components/Attractions";
-import EatLocal  from "./components/EatLocal";
-import CincyHistory  from "./components/CincyHistory";
+import About  from "./components/About";
+// import EatLocal  from "./components/EatLocal";
+// import ShopLocal  from "./components/ShopLocal";
+// import Attractions  from "./components/Attractions";
+// import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
-import About from "./components/About"
 import CreateRestaurant from "./components/CreateRestaurant";
-import CreateHistory from "./components/CreateHistory"
+import CreateHistory from "./components/CreateHistory";
+import CreateShop from "./components/CreateShop";
+import CreateAttraction from "./components/CreateAttraction";
 
 function App() {
 
@@ -25,14 +27,16 @@ function App() {
     <br/>
     <Switch>  
      <Route path="/about" component={About} />
-     <Route path="/contact" component={Contact} />
+       <Route path="/contact" component={Contact} />
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
-     <Route exact path="/" component={Home} />
      <Route path="/history" component={CincyHistory} />
+     <Route exact path="/create" component={CreateRestaurant} />
      <Route path="/createRestaurant" component={CreateRestaurant} />
      <Route path="/createHistory" component={CreateHistory} />
+     <Route path="/createAttraction" component={CreateAttraction} />
+     <Route path="/createShop" component={CreateShop} />
  
     </Switch> 
      <Footer /> 

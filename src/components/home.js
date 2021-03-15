@@ -1,18 +1,24 @@
 import React from 'react'
-
-const home = () => {
+import Cincy from './Cincy.mp4'
+const Home = () => {
     return (
-        <div>
+        <div id="home">
             <video id="slider" autoPlay muted loop>
-              <source src="video1.mp4" type="video/mp4"></source>
+            <source src={""}></source>
+
             </video>
+            <ul class="navigation">
+              <li><img src="thumb"></img></li>
+              <li><img src="thumb"></img></li>
+              <li><img src="thumb"></img></li>
+            </ul>
         </div>
     )
 }
 
-export default home
+export default Home
 
-/* <Carousel fade>
+{/* <Carousel fade>
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -48,4 +54,4 @@ export default home
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel> */
+</Carousel>  */}

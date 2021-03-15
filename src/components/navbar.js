@@ -41,9 +41,9 @@ export default class Navbar extends Component {
       <button className="btn btn-outline-dark my-2 my-sm-0">Search</button>
     </form>
   </div>
-</nav>
-    );
+  </nav>
+);
+  
+    }
   }
-}
-
 
