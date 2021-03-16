@@ -107,6 +107,15 @@ blockquote {
 div.post-container {
   align-self: center;
 }
+div.image{
+  display: flexbox;
+  align-self: center;
+  
+}
+div.city{
+  display: flex;
+  align-self: center;
+}
 
 
 
