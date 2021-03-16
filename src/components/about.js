@@ -56,7 +56,8 @@ AOS.init();
                 </div>
             <p> <blockquote  className="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae eius sunt eveniet. Repudiandae, earum veritatis doloremque unde ad dolor!
             <br/>
-            - Drake</blockquote></p>
+            - Drake</blockquote>
+            </p>
             </div>
             <br/>
 
