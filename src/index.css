@@ -85,19 +85,39 @@ div.about {
   border-width: thick;
 } */
 
-img{
+/* img{
   width: 150px;
   height: 150px;
  border-radius: 50%;
   border-Width: 3;
   border-Color: red
   
-}
+} */
 #drake {
   align-self: flex-end;
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
 }
 #aarika{
   align-self: flex-end;
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+#kiah{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+#ron{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
 }
 blockquote {
   font-family: font-family 'Montserrat', sans-serif;
@@ -112,10 +132,20 @@ div.image{
   align-self: center;
   
 }
-div.city{
-  display: flex;
-  align-self: center;
+
+img.cincy{
+  position: relative;
+  background-size: cover;
+  max-width: 780px;
+  /* width: 500px;
+  height: 500px;
+  min-height: 780px;
+  border-radius: none;
+  border-width: 0px; */
+  overflow: hidden;
 }
+
+
 
 
 
