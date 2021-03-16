@@ -7,10 +7,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home  from "./components/Home";
 import About  from "./components/About";
-// import EatLocal  from "./components/EatLocal";
-// import ShopLocal  from "./components/ShopLocal";
-// import Attractions  from "./components/Attractions";
-// import CincyHistory  from "./components/CincyHistory";
+import EatLocal  from "./components/EatLocal";
+import ShopLocal  from "./components/ShopLocal";
+import Attractions  from "./components/Attractions";
+import CincyHistory  from "./components/CincyHistory";
 import Contact  from "./components/Contact";
 import CreateRestaurant from "./components/CreateRestaurant";
 import CreateHistory from "./components/CreateHistory";
@@ -26,8 +26,9 @@ function App() {
     <Navbar />
     <br/>
     <Switch>  
+     <Route exact path="/" component={Home} />
      <Route path="/about" component={About} />
-       <Route path="/contact" component={Contact} />
+      <Route path="/contact" component={Contact} />
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
