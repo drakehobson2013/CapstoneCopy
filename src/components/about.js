@@ -35,7 +35,7 @@ AOS.init();
 <br/>
 <br/>
 <div className="city">
-    <div className="container">
+    <div className="container" data-aos="fade-up">
     {/* <video id="" preload="auto" autoPlay="true" loop volume="0">
     </video> */}
 
