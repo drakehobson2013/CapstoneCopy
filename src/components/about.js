@@ -26,6 +26,8 @@ AOS.init();
 <div className="container">
     <p className="about-description">
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolorum. Molestias quia voluptatibus quam error, voluptates rerum aut. Accusamus ut est fugiat, id aliquid error magnam saepe tenetur doloribus odio veniam a repellat eligendi esse reprehenderit aperiam placeat ipsa cum. Nobis quidem aut vitae magni sint, beatae pariatur aliquid earum! 
+
+       {/* ^^^^^^^ This will be a short summary on the project, class, and website. ^^^^^ */}
     </p>
 </div>
 </div>
