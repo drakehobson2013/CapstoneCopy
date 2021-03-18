@@ -86,7 +86,7 @@ AOS.init();
                 <div className="image">
             <img src={Ron} alt="Ron" id="ron" />
                 </div>
-            <p className="text-justify-end"> <blockquote  className="text-center">I just think how amazing it is to me how I knew nothing about code to that now I can actually design wonderful things and let my creativity free through web design.
+            <p className="text-center"> <blockquote  className="text-center">I just think how amazing it is to me how I knew nothing about code to that now I can actually design wonderful things and let my creativity free through web design.
             <br/>
             - Ron</blockquote> </p>
             </div>

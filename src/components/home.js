@@ -13,7 +13,10 @@ const Home = () => {
               <li><img src="thumb"></img></li>
             </ul>
         </div>
+
+      
     )
+    
 }
 
 export default Home
