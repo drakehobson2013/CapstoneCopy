@@ -63,17 +63,17 @@ code {
 
 
 /* Below is the CSS for the about pages. Img and card details. */
-.card {
+/* .card {
   width: 70%;
   width: 85%;
   height: 25%;
   color: rgb(82, 58, 58);
   position: static;
-  font-size: 17px;
+  font-size: 17px; */
   /* border: black;
   border-width: medium; */
 
-}
+/* } */
 
 div.about {
   border: thick;
@@ -207,3 +207,40 @@ width: 100%;
 
 
 /* shop and attraction css end */
+
+
+
+#EatImg{
+  height: 250px;
+  border: .5px solid black;
+}
+
+.card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.opener{
+  font-family: serif;
+  font-size: 35px;
+  color: white;
+  background: black;
+}
+
+.Eats{
+  margin-top: 25px;
+}
+
+.card:hover{
+  width: 250px;
+  /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
+
+  /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
+  /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
+  /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
+  margin-top: -18px;
+ -moz-box-shadow:    0 0 50px red;
+ -webkit-box-shadow: 0 0 50px red;
+ box-shadow:         0 0 50px red;    
+}
