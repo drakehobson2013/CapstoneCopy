@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 const Restaurant = props => (
-<div className="container col-md-3 d-flex Eats">
- <div className="card border-dark">
+<div className="container col-md-4 d-flex Eats">
+ <div className="card border-transparent">
 <img className="card-img-top" id="EatImg" src={props.restaurant.image} alt=""/>
  <div className="card-body">
     <h4 className="card-title">{props.restaurant.name}</h4>

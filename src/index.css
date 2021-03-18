@@ -1,15 +1,17 @@
 /* my nav */
 nav{
-  background-color: white;
-  background-image: url(./components/Images/NavBack.jpg);
+  background-color: #EAC435;
+  background-image: url(./components/Images/NavBack.png);
   background-repeat: no-repeat;
-  background-position-y: -75px;
+  background-position-y: -17px;
   background-position-x: center;
   font-family: 'Fascinate', cursive;
   height: auto;
 }
 
-
+footer{
+  background: #EAC435;
+}
 
 .FlyingPig{
   border-radius: 50%;
@@ -21,7 +23,7 @@ a.nav-link{
   color: black;
 }
 a.nav-link:hover{
-  color: red;
+  color: #03CEA4;
 }
 /* my nav */
 
@@ -212,35 +214,41 @@ width: 100%;
 
 #EatImg{
   height: 250px;
-  border: .5px solid black;
+  border: .5px transparent #F7F7FF;
 }
 
 .card-text{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color: black;
+  color: #EAC435;
 }
 
 .opener{
   font-family: serif;
   font-size: 35px;
-  color: white;
-  background: black;
+  text-align: center;
+  text-shadow: 1px 1px #03CEA4;
+  color: #EAC435;
+  background: #345995;
 }
 
 .Eats{
-  margin-top: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.card:hover{
-  width: 250px;
+.card-body:hover{
   /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
 
   /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
   /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
   /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
   margin-top: -18px;
- -moz-box-shadow:    0 0 50px red;
- -webkit-box-shadow: 0 0 50px red;
- box-shadow:         0 0 50px red;    
+ -moz-box-shadow:    0 0 50px #03CEA4;
+ -webkit-box-shadow: 0 0 50px #03CEA4;
+ box-shadow:         0 0 50px #03CEA4;    
+}
+
+.card-body{
+  background-color: #345995;
 }
