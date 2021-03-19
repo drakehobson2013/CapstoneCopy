@@ -24,10 +24,11 @@ function App() {
     <Router>
     <div className="App">
     <Navbar />
-    <br/>
+ 
     <Switch>  
+     <Route exact path="/" component={Home} />
      <Route path="/about" component={About} />
-       <Route path="/contact" component={Contact} />
+      <Route path="/contact" component={Contact} />
      <Route path="/attraction" component={Attractions} />  
      <Route path="/shop" component={ShopLocal} />
      <Route path="/restaurant" component={EatLocal} />
