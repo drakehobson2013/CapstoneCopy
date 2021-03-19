@@ -7,7 +7,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-<nav className="navbar navbar-expand-lg">
+<nav className="navbar navbar-expand-lg top">
   <a href="/" className="navbar-brand"><img className="FlyingPig" src={FlyingPig} alt=""/></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
   <span className="navbar-toggler-icon"></span>
