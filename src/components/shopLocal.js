@@ -1,18 +1,28 @@
+
 import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
 
 
 const Shop = props => (
-  <tr>
-    <td>{props.shop.name}</td>
-    <td>{props.shop.description}</td>
-    <td><img src={props.shop.image} alt=""/></td>
-    <td>{props.shop.address}</td>
-    <td>{props.shop.city}</td>
-    <td>{props.shop.state}</td>
-    <td>{props.shop.zipcode}</td>
-  </tr>
+ 
+
+  <div class="container ">
+  <div class="row g-0">
+    <div class="col">
+     <div class="p-3 border bg-light"><img  id="" src={props.shop.image}  alt=""/></div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">
+      <h4 className="card-title">{props.shop.name}</h4>
+   <h5 className='card-text'>{props.shop.description}</h5>
+   <p>{props.shop.address}{props.shop.city} {props.shop.state} {props.shop.zipcode}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
 )
 
 export default class shopLocal extends Component {
@@ -56,30 +66,13 @@ export default class shopLocal extends Component {
       </div>
       </header>
 
+      <div >
+           { this.shopLocal()  }
+                </div>
+     
+
       </div>
-        
-//       <div className="text-center">
-
-
-//         <h1>Best Shopping in Cincinnati!</h1>
-//         <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ullam, voluptatem neque tempora laudantium voluptas dicta, optio minus inventore voluptatibus rerum! Nisi ab ipsum doloribus vel eum veritatis velit voluptate deleniti nemo, ipsam aperiam consequuntur, minus aliquid ratione accusantium, distinctio omnis provident asperiores impedit earum. Vero enim culpa totam vitae.</span>
-//         <table className="table">
-//     <thead className="thead-light">
-//       <tr>
-//         <th>Name</th>
-//         <th>Description</th>
-//         <th>Image</th>
-//         <th>Address</th>
-//         <th>City</th>
-//         <th>State</th>
-//         <th>Zipcode</th>
-//       </tr>
-//     </thead>
-//     <tbody>
-//       { this.shopLocal() }
-//     </tbody>
-//   </table>
-// </div>
+     
       
 
 
