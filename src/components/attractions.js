@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
+import kings from './Images/KingsIsland.jpg';
 
 const Attraction = props => (
   <tr>
@@ -50,6 +51,33 @@ export default class Attractions extends Component {
       </div>
       </div>
       </header>
+
+      <div className="exp">
+       <div className="card mb-3 cardsize">
+        <div className="row g-0">
+         <div className="col-md-4">
+         <img src={kings} alt="..."></img>
+         </div>
+         <div className="col-md-8">
+       <div className="card-body">
+        <h5 className="card-title">Kings Island</h5>
+        <p className="card-text">have fun here and ride roller coasters and other shit</p>
+        <p className="card-text">heres the location<small className="text-muted"></small></p>
+       </div>
+      </div>
+        </div>
+       </div>  
+      </div>
+
+      <div className="container zooani">
+      <div>
+        <div>
+        <h2></h2>
+        </div>
+      </div>
+        
+      </div>
+      
 
       </div>
         
