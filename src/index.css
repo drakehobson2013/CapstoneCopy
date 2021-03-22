@@ -197,6 +197,7 @@ width: 100%;
 
 /* importing google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 
  #header-section-shop{
@@ -240,6 +241,47 @@ width: 100%;
   font-size: 50px;
 }
 
+/* gradient background div */
+/* .exp{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  height: 300px;
+  z-index: -1;
+} */
+
+.cardsize{
+  max-width: 540px;
+  z-index: 1;
+}
+
+.zooani{
+
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+border-bottom-right-radius: 50% 55%;
+height: 400px;
+}
+
+.attractimg{
+  height: 350px;
+  width:350px;
+  
+}
+
+.shopattractimg{
+  height:400px;
+  width: 550px;
+  
+
+
+}
+
+.titlestyle{
+  font-size: 40px;
+}
+
+.card-shopattract-text{
+  font-family: 'Nunito', sans-serif;
+ 
+}
 
 /* shop and attraction css end */
 
