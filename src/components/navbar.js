@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import FlyingPig from "./hoc/FlyingPig.jpg";
 
 export default class Navbar extends Component {
@@ -14,15 +14,15 @@ export default class Navbar extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navBarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
-        <a href="/" className="nav-link">Home</a>
-      </li>
-      <li className="nav-item active">
-      <a href="/about" className="nav-link">About</a>
-      </li>
-      <li className="nav-item active">
-      <a href="/contact" className="nav-link">Contact</a>
-      </li>
+      <Link to='/' className="nav-item active">
+        {/* <a href="/" className="nav-link">Home</a> */}
+      </Link>
+      <Link to='/about' className="nav-item active">
+      {/* <a href="/about" className="nav-link">About</a> */}
+      </Link>
+      <Link to='/contact' className="nav-item active">
+      {/* <a href="/contact" className="nav-link">Contact</a> */}
+      </Link>
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Things To Do

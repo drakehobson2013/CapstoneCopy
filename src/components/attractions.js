@@ -6,14 +6,14 @@ const Attraction = props => (
 
 
 
-  // <div className="card mb-3 ">
-  <div className="row g-0">
+   <div className="card mb-3 card-style ">
+  <div className="row g-25">
   <div className="col-md-4">
-<img className="attractimg" src={props.attraction.image}  alt=""/>
+<img className="shopattractimg" src={props.attraction.image}  alt=""/>
 </div>
 <div className="col-md-8">
-<div className="card-body">
-   <h4 className="card-title">{props.attraction.name}</h4>
+<div className="card-body card-shopattract-text zooani">
+   <h4 className="card-title titlestyle">{props.attraction.name}</h4>
    <h5 className='card-text'>{props.attraction.description}</h5>
    <p>{props.attraction.address}{props.attraction.city} {props.attraction.state} {props.attraction.zipcode}</p>
  
@@ -21,7 +21,7 @@ const Attraction = props => (
  </div>
  </div>
  </div>
-//  </div>
+ </div>
 
   
 )

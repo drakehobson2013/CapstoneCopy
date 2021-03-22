@@ -7,20 +7,22 @@ import "../index.css";
 const Shop = props => (
  
 
-  <div class="container ">
-  <div class="row g-0">
-    <div class="col">
-     <div class="p-3 border bg-light"><img  id="" src={props.shop.image}  alt=""/></div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <h4 className="card-title">{props.shop.name}</h4>
+  <div className="card mb-3 card-style">
+  <div className="row g-25">
+  <div className="col-md-4">
+<img className="shopattractimg" src={props.shop.image}  alt=""/>
+</div>
+<div className="col-md-8">
+<div className="card-body card-shopattract-text zooani">
+   <h4 className="card-title titlestyle">{props.shop.name}</h4>
    <h5 className='card-text'>{props.shop.description}</h5>
    <p>{props.shop.address}{props.shop.city} {props.shop.state} {props.shop.zipcode}</p>
-      </div>
-    </div>
-  </div>
-</div>
+ 
+ 
+ </div>
+ </div>
+ </div>
+ </div>
 
   
 )
