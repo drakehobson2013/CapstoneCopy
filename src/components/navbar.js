@@ -14,13 +14,13 @@ export default class Navbar extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navBarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <Link to='/' className="nav-item active">
+      <Link to='/' className="nav-link">Home
         {/* <a href="/" className="nav-link">Home</a> */}
       </Link>
-      <Link to='/about' className="nav-item active">
+      <Link to='/about' className="nav-link">About
       {/* <a href="/about" className="nav-link">About</a> */}
       </Link>
-      <Link to='/contact' className="nav-item active">
+      <Link to='/contact' className="nav-link">Contact
       {/* <a href="/contact" className="nav-link">Contact</a> */}
       </Link>
       <li class="nav-item dropdown">
@@ -29,10 +29,18 @@ export default class Navbar extends Component {
           </a>
         <div className="dropdown-menu">
         
-        <a href="/restaurant" className="dropdown-item">Eat local</a>
-        <a href="/shop" className="dropdown-item">Shop local</a>
-        <a href="/attraction" className="dropdown-item">Attractions</a>
-        <a href="/history" className="dropdown-item">Cincy History</a>
+        <Link to='/restaurant' className="dropdown-item">Eat Local
+        {/* <a href="/restaurant" className="dropdown-item">Eat local</a> */}
+        </Link>
+        <Link to='/shop' className="dropdown-item">Shop Local
+        {/* <a href="/shop" className="dropdown-item">Shop local</a> */}
+        </Link>
+        <Link to='/attraction' className="dropdown-item">Attractions
+        {/* <a href="/attraction" className="dropdown-item">Attractions</a> */}
+        </Link>
+        <Link to='/history' className="dropdown-item">Cincy History
+        {/* <a href="/history" className="dropdown-item">Cincy History</a> */}
+        </Link>
         </div>
       </li>
     </ul>
