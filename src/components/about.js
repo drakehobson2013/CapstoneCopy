@@ -50,7 +50,7 @@ AOS.init();
                 <div className="image">
             <img src={Drake} alt="Drake" id="drake" />
                 </div>
-            <p> <blockquote  className="text-center"> Cincinnati is a great place to live and I thouroughly enjoyed being able to display all of the skills I learned here at The Kable Academy
+            <p> <blockquote  className="text-center"> The Cincinnati area is a great place to live and I thouroughly enjoyed being able to display all of the skills I learned here at The Kable Academy from my instructor, Austin Morales, and from the rest of my team, all while being able to show off my hometown.
             <br/>
             - Drake</blockquote>
             </p>
