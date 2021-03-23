@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
+import Shop2 from './Images/shoppage2.jpg';
 
 const Attraction = props => (
 
 
 
-   <div className="card mb-3 card-style ">
+   <div className="card mb-3 card-style" id="card-style">
   <div className="row g-0">
   <div className="col-md-4">
 <img className="shopattractimg" src={props.attraction.image}  alt=""/>
@@ -62,12 +63,22 @@ export default class Attractions extends Component {
       </div>
       </div>
       </header>
+
+
+      <div className="shop-info text-center">
+      <h2 className="">ATTRACTIONS</h2>
+      <div >
+        <img src={Shop2} alt="woman shopping" id="shop2"/>
+       <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
+      </div>
+      </div>
       
-      <div className="card mb-3">
+      <div >
            { this.Attractions()  }
                 </div>
 
 
+ 
       </div>
       
 
