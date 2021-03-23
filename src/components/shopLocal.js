@@ -8,15 +8,15 @@ const Shop = props => (
  
 
   <div className="card mb-3 card-style">
-  <div className="row g-25">
+  <div className="row g-0">
   <div className="col-md-4">
 <img className="shopattractimg" src={props.shop.image}  alt=""/>
 </div>
 <div className="col-md-8">
 <div className="card-body card-shopattract-text zooani">
    <h4 className="card-title titlestyle">{props.shop.name}</h4>
-   <h5 className='card-text'>{props.shop.description}</h5>
-   <p>{props.shop.address}{props.shop.city} {props.shop.state} {props.shop.zipcode}</p>
+   <p className='card-text'>{props.shop.description}</p>
+   <p>{props.shop.address} {props.shop.city} {props.shop.state} {props.shop.zipcode}</p>
  
  
  </div>
