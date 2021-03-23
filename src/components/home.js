@@ -1,18 +1,22 @@
 import React from 'react'
-import Cincy from './Cincy.mp4'
 const Home = () => {
     return (
-        <div id="home">
-            <video id="slider" autoPlay muted loop>
-            <source src={""}></source>
+<div id="home">
+<header id="header-home">
+      <div className="container-fluid home-bg">
+      <div className="header-text">
+      <h2 className="bigger-font text-white">Welcome To Cincinnati!</h2>
+      <p className="text-white">Cincinnati boasts a thriving arts scene, major league sports teams, a world-class zoo and aquarium and a revitalized riverfront with shopping, clubs and restaurants. Located on the Ohio River in southwestern Ohio, Cinci claims more than 4,000 restaurants, and more chili restaurants than any other city in the world. Adrenaline-junkies will want to visit the nearby Kentucky Speedway and Paramount's Kings Island, home of the tallest and fastest wooden roller coaster in the world.</p>
+      </div>
+      </div>
+      <div className="jumbotron bg-dark col-md-6">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestias nostrum sint possimus excepturi provident?</span>
+      </div>
+     
+      
+</header>
+</div>
 
-            </video>
-            <ul class="navigation">
-              <li><img src="thumb"></img></li>
-              <li><img src="thumb"></img></li>
-              <li><img src="thumb"></img></li>
-            </ul>
-        </div>
 
       
     )
@@ -21,40 +25,3 @@ const Home = () => {
 
 export default Home
 
-{/* <Carousel fade>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Second slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>  */}
