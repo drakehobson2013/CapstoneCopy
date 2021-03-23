@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import "../index.css";
-import Shop2 from './Images/shoppage2.jpg';
+import Attract2 from './Images/attractpage2.jpg';
 
 const Attraction = props => (
 
@@ -52,7 +52,7 @@ export default class Attractions extends Component {
   render() {
     return (
 
-      <div>
+      <div >
 
       
       <header id="header-section-shop">
@@ -66,14 +66,14 @@ export default class Attractions extends Component {
 
 
       <div className="shop-info text-center">
-      <h2 className="">ATTRACTIONS</h2>
+      <h2 className="shoptextstyle">ATTRACTIONS</h2>
       <div >
-        <img src={Shop2} alt="woman shopping" id="shop2"/>
+        <img src={Attract2} alt="woman shopping" id="shop2"/>
        <blockquote> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum ducimus minus nobis, deserunt quaerat, tempore ipsa eligendi, sequi dolores aperiam architecto aliquam cum maiores corrupti odit recusandae in cumque quos ipsam sapiente nam corporis odio? Molestias nobis quasi voluptatem.</blockquote>
       </div>
       </div>
       
-      <div >
+      <div className="bodyody">
            { this.Attractions()  }
                 </div>
 

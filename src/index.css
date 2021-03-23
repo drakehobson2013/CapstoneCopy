@@ -5,12 +5,13 @@ nav{
   background-repeat: no-repeat;
   background-position-y: -15px;
   background-position-x: center;
-  font-family: 'Fascinate', cursive;
+  font-family: cursive;
+  font-size: 20px;
   height: auto;
 }
 
 footer{
-  background: #EF476F;
+  background: #080705;
   position: bottom;
 }
 
@@ -20,6 +21,9 @@ footer{
   width: 100px;
 }
 
+a.navbar-brand:hover{
+  opacity: 0.8;
+}
 a.nav-link{
   color: black;
 }
@@ -44,40 +48,20 @@ a.nav-link:hover{
   height: 35px;
   margin-top: 10px;
   margin-left: 15px;
+  background: #EF476F;
 }
 .gitImg:hover{
   opacity: 0.6;
 }
 
-#home{
-margin: 0;
+.margin{
+margin-bottom: 115px;
 padding: 0;
 box-sizing: border-box ;
 }
-section
-{
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-section video
-{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
+
 
 .home-bg{
     background-image: url(./components/Images/Sing.jpg);
@@ -92,6 +76,9 @@ body {
 
 }
 
+.logos{
+  height: 150px;
+}
 
 
 /* Below is the CSS for the about pages. Img and card details. */
@@ -243,7 +230,18 @@ width: 100%;
 
 }
 .eattophead{
-  background-image: url(./components/Images/attractpage.jpg);
+  background-image: url(./components/Images/Taste.png);
+  height: 100vh;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+.historyTopHead{
+  background-image: url(./components/Images/Museum.jpg);
   height: 100vh;
   top: 100px;
   min-height: 300px;
@@ -308,68 +306,43 @@ height: 400px;
  
 }
 
-#card-style{
-  background-color: lightblue;
-}
-
-.shop-info{
-  margin-top: 340px;
-  margin-bottom: 340px;
-  font-family: 'Poppins', sans-serif;
-}
-
-#shop2{
-  height:500px;
-  font-size: 20px;
- 
-}
-
-.shoptextstyle{
-  font-family: 'Nunito', sans-serif;
-  font-size: 50px;
-}
-
-/* shop and attraction css end */
-
-
-
-#EatImg{
-  height: 250px;
-  border: .5px transparent #F7F7FF;
-}
-
-.card-text{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  color: #000000;
-}
-
-.opener{
-  font-family: serif;
-  font-size: 35px;
-  text-align: center;
-  text-shadow: 1px 1px #DEE7E7;
-  color: #000000;
-  background: #F4FAFF;
-}
-
-.Eats{
-  margin-top: 25px;
-  margin-bottom: 150px;
-}
-
 .card-body:hover{
-  /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
-
-  /* Below we are not using -26px for margin-top because .box has 6px border and 10px margin. */
-  /* That 16px is then divide by 2 since it's for both top and bottom, or 8px per side. */
-  /* Having said that, 26px - 8px is 18px. We need negative value to position it correctly. */
   margin-top: -18px;
  -moz-box-shadow:    0 0 50px #000000;
  -webkit-box-shadow: 0 0 50px #000000;
  box-shadow:         0 0 50px #000000;    
 }
 
-.card-body{
-  background-color: #DEE7E7;
+/* css for the image on the shop page */
+#shop2{
+margin-bottom: 40px;
+height: 385px;
 }
+
+/* css for the div between header and cards */
+.shop-info{
+margin-top: 320px;
+margin-bottom: 70px;
+}
+
+/* the h2 text below header */
+.shoptextstyle{
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+/* to create a margin around my content */
+.bodyody{
+  margin-bottom: 200px;
+}
+
+/* shop and attraction css end */
+
+
+
+
+
+
+
+
