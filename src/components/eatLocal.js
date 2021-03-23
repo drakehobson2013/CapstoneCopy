@@ -38,6 +38,16 @@ export default class EatLocal extends Component {
   }
   render() {
     return (
+    <div>
+
+      <header id="header-section-shop">
+      <div className="container-fluid eattophead">
+      <div className="header-text">
+      <h2 className="bigger-font text-white">Eat Local</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, autem placeat repellat voluptatem delectus eum mollitia aut ad molestiae non perferendis iure nam, aliquid reprehenderit..</p>
+      </div>
+      </div>
+      </header>
         
       <div className="text-center opener">
         <h1>Get a taste of Cincinnati!</h1>
@@ -50,7 +60,7 @@ export default class EatLocal extends Component {
 </div>
       
 
-
+</div>
     );
   }
 }
