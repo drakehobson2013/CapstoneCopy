@@ -312,6 +312,31 @@ height: 400px;
  -webkit-box-shadow: 0 0 50px #000000;
  box-shadow:         0 0 50px #000000;    
 }
+
+/* css for the image on the shop page */
+#shop2{
+margin-bottom: 40px;
+height: 385px;
+}
+
+/* css for the div between header and cards */
+.shop-info{
+margin-top: 320px;
+margin-bottom: 70px;
+}
+
+/* the h2 text below header */
+.shoptextstyle{
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+/* to create a margin around my content */
+.bodyody{
+  margin-bottom: 200px;
+}
+
 /* shop and attraction css end */
 
 
