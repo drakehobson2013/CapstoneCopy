@@ -1,0 +1,352 @@
+/* my nav */
+nav{
+  background-color: #EF476F;
+  background-image: url(./components/Images/NavBack.png);
+  background-repeat: no-repeat;
+  background-position-y: -15px;
+  background-position-x: center;
+  font-family: cursive;
+  font-size: 20px;
+  height: auto;
+}
+
+footer{
+  background: #080705;
+  position: bottom;
+}
+
+.FlyingPig{
+  border-radius: 50%;
+  height: 75px;
+  width: 100px;
+}
+
+a.navbar-brand:hover{
+  opacity: 0.8;
+}
+a.nav-link{
+  color: black;
+}
+a.nav-link:hover{
+  color: #F4FAFF;
+}
+/* my nav */
+
+/* footer css */
+
+.noOvals{
+  border-radius: 50%;
+  width: 38px;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+
+.gitImg{
+  border-radius: 50%;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background: #EF476F;
+}
+.gitImg:hover{
+  opacity: 0.6;
+}
+
+.margin{
+margin-bottom: 115px;
+padding: 0;
+box-sizing: border-box ;
+}
+
+
+
+
+.home-bg{
+    background-image: url(./components/Images/Sing.jpg);
+    height: 125vh;
+    min-height: 300px;
+   
+    background: no repeat center center scroll rgba(255,255,255,0.5);;
+    background-size: cover; 
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+    
+
+}
+
+.logos{
+  height: 150px;
+}
+
+.jumbotron{
+  margin-top: 100px;
+  
+}
+
+/* Below is the CSS for the about pages. Img and card details. */
+/* .card {
+  width: 70%;
+  width: 85%;
+  height: 25%;
+  color: rgb(82, 58, 58);
+  position: static;
+  font-size: 17px; */
+  /* border: black;
+  border-width: medium; */
+
+/* } */
+
+div.about {
+  border: thick;
+  border-color: tomato;
+}
+
+/* #deck{
+  border: black;
+  border-width: thick;
+} */
+
+/* img{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+  border-Color: red
+  
+} */
+#drake {
+  align-self: flex-end;
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+#aarika{
+  align-self: flex-end;
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+#kiah{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+#ron{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+  border-Width: 3;
+}
+blockquote {
+  font-family: font-family 'Montserrat', sans-serif;
+}
+
+
+div.post-container {
+  align-self: center;
+}
+div.image{
+  display: flexbox;
+  align-self: center;
+  
+}
+
+img.cincy{
+  position: relative;
+  background-size: cover;
+  max-width: 780px;
+  /* width: 500px;
+  height: 500px;
+  min-height: 780px;
+  border-radius: none;
+  border-width: 0px; */
+  overflow: hidden;
+}
+
+#about-head-bg{
+  background-image: url(./components/MetroCincy.jpg);
+  height: 100vh;
+  min-height: 300px;
+ 
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+}
+
+#about-header{
+  height: 700px;
+width: 100%;
+}
+
+
+
+
+
+
+/* About Page Style End */
+
+
+
+
+
+
+/* shop and attraction pages css */
+
+
+/* importing google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+ #header-section-shop{
+height: 700px;
+width: 100%;
+} 
+
+
+.shoptophead{
+  background-image: url(./components/Images/shoppage.jpg);
+  height: 100vh;
+  min-height: 300px;
+ 
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  
+}
+
+.attracttophead{
+  background-image: url(./components/Images/attractpage.jpg);
+  height: 100vh;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+.eattophead{
+  background-image: url(./components/Images/Taste.png);
+  height: 100vh;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+.historyTopHead{
+  background-image: url(./components/Images/Museum.jpg);
+  height: 100vh;
+  top: 100px;
+  min-height: 300px;
+  background: no repeat center center scroll rgba(255,255,255,0.5);;
+  background-size: cover; 
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+
+}
+
+.header-text{
+  font-family: 'Poppins', sans-serif; 
+  position: absolute;
+  left: 16px;
+ 
+}
+
+.bigger-font{
+  font-size: 50px;
+}
+
+/* gradient background div */
+/* .exp{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  height: 300px;
+  z-index: -1;
+} */
+
+.cardsize{
+  max-width: 540px;
+  z-index: 1;
+}
+
+.zooani{
+
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+border-bottom-right-radius: 50% 55%;
+height: 400px;
+}
+
+.attractimg{
+  height: 350px;
+  width:350px;
+  
+}
+
+.shopattractimg{
+  height:400px;
+  width: 550px;
+  filter: saturate(180%);
+  
+
+
+}
+
+.titlestyle{
+  font-size: 40px;
+}
+
+.card-shopattract-text{
+  font-family: 'Nunito', sans-serif;
+ 
+}
+
+.card-body:hover{
+  margin-top: -18px;
+ -moz-box-shadow:    0 0 50px #000000;
+ -webkit-box-shadow: 0 0 50px #000000;
+ box-shadow:         0 0 50px #000000;    
+}
+
+/* css for the image on the shop page */
+#shop2{
+margin-bottom: 40px;
+height: 385px;
+}
+
+/* css for the div between header and cards */
+.shop-info{
+margin-top: 320px;
+margin-bottom: 70px;
+}
+
+/* the h2 text below header */
+.shoptextstyle{
+  font-family: 'Nunito', sans-serif;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+/* to create a margin around my content */
+.bodyody{
+  margin-bottom: 200px;
+}
+
+/* shop and attraction css end */
+
+
+
+
+
+
+
+

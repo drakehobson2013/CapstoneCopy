@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7f48ee4.chunk.css",
+    "main.js": "/static/js/main.915c9c3f.chunk.js",
+    "main.js.map": "/static/js/main.915c9c3f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.103ecc60.js",
+    "runtime-main.js.map": "/static/js/runtime-main.103ecc60.js.map",
+    "static/css/2.5077cb93.chunk.css": "/static/css/2.5077cb93.chunk.css",
+    "static/js/2.41fca26f.chunk.js": "/static/js/2.41fca26f.chunk.js",
+    "static/js/2.41fca26f.chunk.js.map": "/static/js/2.41fca26f.chunk.js.map",
+    "static/js/3.3ca66321.chunk.js": "/static/js/3.3ca66321.chunk.js",
+    "static/js/3.3ca66321.chunk.js.map": "/static/js/3.3ca66321.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5077cb93.chunk.css.map": "/static/css/2.5077cb93.chunk.css.map",
+    "static/css/main.c7f48ee4.chunk.css.map": "/static/css/main.c7f48ee4.chunk.css.map",
+    "static/js/2.41fca26f.chunk.js.LICENSE.txt": "/static/js/2.41fca26f.chunk.js.LICENSE.txt",
+    "static/media/Aarika.dfe9b85b.jpg": "/static/media/Aarika.dfe9b85b.jpg",
+    "static/media/Bengals.31d30049.png": "/static/media/Bengals.31d30049.png",
+    "static/media/Drake.97f7a9a2.jpg": "/static/media/Drake.97f7a9a2.jpg",
+    "static/media/FC.cc69e30b.png": "/static/media/FC.cc69e30b.png",
+    "static/media/FiftyWest.35b7e525.png": "/static/media/FiftyWest.35b7e525.png",
+    "static/media/FlyingPig.fd4a7815.jpg": "/static/media/FlyingPig.fd4a7815.jpg",
+    "static/media/GitHub_logo.00c601f1.png": "/static/media/GitHub_logo.00c601f1.png",
+    "static/media/Kiah.f6a19b95.jpg": "/static/media/Kiah.f6a19b95.jpg",
+    "static/media/index.css": "/static/media/shoppage.8b52d674.jpg",
+    "static/media/Platform.26c8e942.png": "/static/media/Platform.26c8e942.png",
+    "static/media/Reds.4c4a5b02.png": "/static/media/Reds.4c4a5b02.png",
+    "static/media/Rhinegeist.0e78e5e1.png": "/static/media/Rhinegeist.0e78e5e1.png",
+    "static/media/Ron.8a14e3f8.jpeg": "/static/media/Ron.8a14e3f8.jpeg",
+    "static/media/UC.6eb6d41d.png": "/static/media/UC.6eb6d41d.png",
+    "static/media/attractpage2.0ee099bd.jpg": "/static/media/attractpage2.0ee099bd.jpg",
+    "static/media/shoppage2.a386ffbd.jpg": "/static/media/shoppage2.a386ffbd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.103ecc60.js",
+    "static/css/2.5077cb93.chunk.css",
+    "static/js/2.41fca26f.chunk.js",
+    "static/css/main.c7f48ee4.chunk.css",
+    "static/js/main.915c9c3f.chunk.js"
+  ]
+}
